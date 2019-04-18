@@ -2,20 +2,21 @@
 
 body {
   background-color: black /*#385F71*/;
+  font-family: 'Karla';
+  text-align: center;
 }
 
 .header {
-  font-family: 'Karla';
-  font-size: 50px;
+  font-size: 30px;
   color: white;
-  text-align: center;
+/*  top: 600px; */
 }
 
 .button {
   font-size: 20px;
   color: black;
-  background-color: #F5F0F6;
-  text-align: center;
+  background-color: white;
+  height: 800px;
   padding: 10px 20px;
   border-radius: 10px;
   text-decoration: none;
@@ -24,5 +25,17 @@ body {
 
 .button:hover {
   background-color: aquamarine;
+}
 
+h2 {
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  color: grey;
+}
+
+.footer {
+  text-align: right
 }
